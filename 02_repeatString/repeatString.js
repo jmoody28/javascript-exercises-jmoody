@@ -11,19 +11,19 @@ const repeatString = function (str, num) {
 
   return result;
 };
-repeatString("hey", 3); // returns 'heyheyhey'
+// repeatString("hey", 3); // returns 'heyheyhey'
 
-repeatString("hello", 10);
+// repeatString("hello", 10);
 
-repeatString("hi", 1);
+// repeatString("hi", 1);
 
-repeatString("bye", 0);
+// repeatString("bye", 0);
 
-repeatString("goodbye", -1);
+// repeatString("goodbye", -1);
 
-repeatString();
+// repeatString();
 
-repeatString("", 10);
+// repeatString("", 10);
 
 // Do not edit below this line
 module.exports = repeatString;
